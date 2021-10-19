@@ -1,0 +1,63 @@
+*{
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  border-radius: 40px rgb(51, 17, 44);
+  display: block;
+}
+
+body {
+  background-color: red;
+  padding: 50px ;
+  color:white;
+  margin: auto;
+  margin-top: 50px;
+  height: 550px;
+  width: 500px;
+  border-radius: 40px rgb(51, 17, 44);
+  }
+
+.cell {
+  background-color: rgb(51, 17, 44);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.board-container {
+background-color: aliceblue;
+height: 450px;
+width:400px;
+padding: 20px 20px;
+border-radius: 10px;
+display: block;
+}
+
+.button{
+  background-color: black;
+  color:white;
+  font-size: xx-large;
+  display: none;
+}
+.victory{
+  font-size: xx-large;
+  display: none;
+}
+.game-over{
+  display: none;
+  background-image: cover;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
